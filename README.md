@@ -35,3 +35,8 @@ The **average** and **best**-case running **time** of the Rabin-Karp algorithm i
 
 This repository represents the code for the algorithm presented in the matching chapter in '**Introduction to algorithms, Third edition**'
 <img src='./Rabin-Karp.png'>
+
+### Results
+
+The following screenshot is took from the execution of the '**rabin-karp.py**' file
+<img src='./execution.png'>
