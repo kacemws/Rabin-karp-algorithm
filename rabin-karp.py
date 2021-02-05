@@ -1,3 +1,4 @@
+import timeit
 def prime_num(num) : 
     if num > 1:
         for i in range(2,num):
@@ -78,8 +79,12 @@ def main() :
 
         d = 256
 
+        start_time = timeit.default_timer()
         # Function Call 
         rabin_karp_matcher(text,pattern,d, int(q)) 
+        exec_time = timeit.default_timer() - start_time
+
+        print('function executed in ',exec_time)
 
 
         print('\nContinue ? [Y/n]')
